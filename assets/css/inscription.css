@@ -1,0 +1,66 @@
+.inscription {
+    min-height: 100vh;
+    flex-grow: 100;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.inscription::before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #083346;
+    opacity: .6;
+    clip-path: polygon(0% 100%,0% 0%,calc(100% - 23.98px) 0%,calc(100% - 22.28px) 1%,calc(100% - 20.58px) 2%,calc(100% - 18.91px) 3%,calc(100% - 17.27px) 4%,calc(100% - 15.66px) 5%,calc(100% - 14.1px) 6%,calc(100% - 12.58px) 7%,calc(100% - 11.13px) 8%,calc(100% - 9.74px) 9%,calc(100% - 8.43px) 10%,calc(100% - 7.2px) 11%,calc(100% - 6.05px) 12%,calc(100% - 4.99px) 13%,calc(100% - 4.03px) 14%,calc(100% - 3.18px) 15%,calc(100% - 2.43px) 16%,calc(100% - 1.79px) 17%,calc(100% - 1.26px) 18%,calc(100% - 0.85px) 19%,calc(100% - 0.57px) 20%,calc(100% - 0.4px) 21%,calc(100% - 0.35px) 22%,calc(100% - 0.43px) 23%,calc(100% - 0.64px) 24%,calc(100% - 0.97px) 25%,calc(100% - 1.42px) 26%,calc(100% - 2px) 27%,calc(100% - 2.69px) 28%,calc(100% - 3.5px) 29%,calc(100% - 4.43px) 30%,calc(100% - 5.47px) 31%,calc(100% - 6.62px) 32%,calc(100% - 7.87px) 33%,calc(100% - 9.22px) 34%,calc(100% - 10.66px) 35%,calc(100% - 12.19px) 36%,calc(100% - 13.8px) 37%,calc(100% - 15.48px) 38%,calc(100% - 17.23px) 39%,calc(100% - 19.05px) 40%,calc(100% - 20.92px) 41%,calc(100% - 22.83px) 42%,calc(100% - 24.78px) 43%,calc(100% - 26.77px) 44%,calc(100% - 28.77px) 45%,calc(100% - 30.79px) 46%,calc(100% - 32.81px) 47%,calc(100% - 34.83px) 48%,calc(100% - 36.84px) 49%,calc(100% - 38.84px) 50%,calc(100% - 40.8px) 51%,calc(100% - 42.73px) 52%,calc(100% - 44.62px) 53%,calc(100% - 46.45px) 54%,calc(100% - 48.23px) 55%,calc(100% - 49.94px) 56%,calc(100% - 51.58px) 57%,calc(100% - 53.14px) 58%,calc(100% - 54.61px) 59%,calc(100% - 56px) 60%,calc(100% - 57.28px) 61%,calc(100% - 58.47px) 62%,calc(100% - 59.55px) 63%,calc(100% - 60.52px) 64%,calc(100% - 61.37px) 65%,calc(100% - 62.11px) 66%,calc(100% - 62.73px) 67%,calc(100% - 63.23px) 68%,calc(100% - 63.61px) 69%,calc(100% - 63.86px) 70%,calc(100% - 63.98px) 71%,calc(100% - 63.99px) 72%,calc(100% - 63.85px) 73%,calc(100% - 63.62px) 74%,calc(100% - 63.26px) 75%,calc(100% - 62.77px) 76%,calc(100% - 62.18px) 77%,calc(100% - 61.47px) 78%,calc(100% - 60.65px) 79%,calc(100% - 59.73px) 80%,calc(100% - 58.71px) 81%,calc(100% - 57.59px) 82%,calc(100% - 56.39px) 83%,calc(100% - 55.11px) 84%,calc(100% - 53.75px) 85%,calc(100% - 52.32px) 86%,calc(100% - 50.83px) 87%,calc(100% - 49.28px) 88%,calc(100% - 47.69px) 89%,calc(100% - 46.06px) 90%,calc(100% - 44.39px) 91%,calc(100% - 42.71px) 92%,calc(100% - 41px) 93%,calc(100% - 39.3px) 94%,calc(100% - 37.59px) 95%,calc(100% - 35.89px) 96%,calc(100% - 34.22px) 97%,calc(100% - 32.56px) 98%,calc(100% - 30.95px) 99%,calc(100% - 29.37px) 100%);
+}
+
+.inscription .container {
+    width: 90%;
+    padding: 30px 0 40px;
+}
+
+.inscription .container img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.inscription .container h2 {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.inscription .container p {
+    color: var(--third-color);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.inscription .container ul {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.inscription .container ul li {
+    margin-bottom: 0.9rem;
+}
+
+.inscription .container ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.inscription .container .freelance {
+    text-align: left;
+}

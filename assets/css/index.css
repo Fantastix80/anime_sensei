@@ -1,0 +1,44 @@
+.accueil {
+    width: 85%;
+    height: calc(100vh - 86.67px);
+    margin: 0 auto;
+    color: white;
+}
+
+.accueil .details {
+    width: 60%;
+}
+
+.accueil .details h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.accueil .details h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.champ-recherche .recherche {
+    width: 80%;
+    border-radius: 0.3rem;
+    padding: 0.9rem 1.9rem 0.9rem 2.4rem;
+}
+
+.champ-recherche i {
+    color: var(--primary-color);
+    padding: 0.9rem 0 0 0.8rem;
+}
+
+.accueil .details .boutons {
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.accueil .image {
+    width: 40%;
+}
+
+.accueil .image img {
+    width: 100%;
+}

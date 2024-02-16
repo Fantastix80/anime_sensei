@@ -1,0 +1,155 @@
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 0 1.5rem 0;
+}
+
+.form-container .header img {
+    margin-left: 15px;
+}
+
+.form-container .header h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.form-container .header h3 {
+    font-size: 1.5rem;
+    color: var(--third-color);
+    margin-bottom: 2rem;
+}
+
+.form-container .form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-container .form .form-item {
+    margin-bottom: 1rem;
+}
+
+.form-container .form .form-item .label-form {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.form-container .form .form-item .input-form {
+    border-radius: 5px;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid white;
+    transition: 0.1s all ease-in-out;
+}
+
+.form-container .form .form-item .input-form:focus {
+    border: 2px solid var(--third-color);
+}
+
+.form-container .form .form-item .hint {
+    font-size: 12px;
+    font-style: italic;
+    color: #AAA;
+    margin-top: 3px;
+}
+
+.form-container .form .form-check {
+    color: white;
+    padding-left: 1.5rem;
+}
+
+.form-container .form .form-check * {
+    cursor: pointer;
+}
+
+.form-container .form .form-check label {
+    font-size: 14px;
+}
+
+.form-container .form .form-check a {
+    color: white;
+    text-decoration: underline;
+    transition: 0.1s all ease-in-out;
+}
+
+.form-container .form .form-check a:hover {
+    color: var(--secondary-color);
+}
+
+.form-container .form .form-check .form-check-input {
+    background-image: url('/assets/img/checkbox-white-unchecked.svg');
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid var(--primary-color);
+    appearance: none;
+    float: left;
+    margin-left: -1.5em;
+    border-radius: 0.25em;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.form-container .form .form-check .form-check-input:checked {
+    background-image: url('/assets/img/checkbox-white-checked.svg');
+}
+
+.form-container .form .btn-submit-form {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.form-container .form .separateur {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 1.5rem 0;
+}
+
+.form-container .form .separateur span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: .3px;
+    color: #AAA;
+}
+
+.form-container .form .separateur span::before {
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 12px;
+    width: 999em;
+    background-color: #AAA;
+    left: 100%;
+    margin-left: 8px;
+}
+
+.form-container .form .separateur span::after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 12px;
+    width: 999em;
+    background-color: #AAA;
+    left: auto;
+    right: 100%;
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.form-container .form .btn-other-choice {
+    display: block;
+    width: 100%;
+    text-align: center;
+}

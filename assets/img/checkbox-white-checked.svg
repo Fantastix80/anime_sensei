@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="17.392"
+   height="17.392"
+   viewBox="0 0 17.392 17.392"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="checkbox-blue.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs25" />
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="63.017479"
+     inkscape:cx="8.6960001"
+     inkscape:cy="8.7277373"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21" />
+  <g
+     id="Groupe_3457"
+     data-name="Groupe 3457"
+     transform="translate(-786.58 -427.222)">
+    <path
+       id="Icon_ionic-md-checkbox-outline"
+       data-name="Icon ionic-md-checkbox-outline"
+       d="M9.234,11.36,7.882,12.713l4.348,4.348,4.029-4.029L21.892,7.4,20.539,6.046,19.185,7.392,12.23,14.307Z"
+       transform="translate(782.08 422.722)"
+       fill="#13b5ea" />
+    <path
+       id="Icon_ionic-md-checkbox-outline-2"
+       data-name="Icon ionic-md-checkbox-outline"
+       d="M19.959,19.959H6.432V6.432h9.662V4.5H6.432A1.938,1.938,0,0,0,4.5,6.432V19.959a1.938,1.938,0,0,0,1.932,1.932H19.959a1.938,1.938,0,0,0,1.932-1.932V12.23H19.959Z"
+       transform="translate(782.08 422.722)"
+       fill="#ffffff" />
+  </g>
+</svg>
